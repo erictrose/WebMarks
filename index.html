@@ -1,10 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Webmarks</title>
+	<meta charset="utf-8">
+	<title>webmarks</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+    <!-- SHIV -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
+
 <body>
-    <h1>Webmarks</h1>
+<div id="wrapper">    
+    <header>
+        <img id="header-logo" src="img/header-logo.png" alt="webmarks logo"/>
+        <a id='login-link' class='header-link' href='#login-modal' rel="modal:open">Login</a>
+        <a id='signup-link' class='header-link' href='#signup-modal' rel='modal:open'>Signup</a>
+    </header>    
+    <aside>
+        <p>menu</p>
+    </aside>
+    <main>
+        <!-- Information Webmarks -->
+        <ul class="webmarks-information">
+            <li><a href="http://caniuse.com/" target="_blank"><img src="img/site_images/caniuse.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.html5gamedevelopment.com/" target="_blank"><img src="img/site_images/html5gamedevelopment.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://stackexchange.com/" target="_blank"><img src="img/site_images/stackexchange.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://www.elance.com/" target="_blank"><img src="img/site_images/elance.png" class="webmark-img" alt="link" /></a></li>
+        </ul>
+        <!-- Javascript Webmarks -->
+        <ul class="webmarks-javascript">
+            <li><a href="http://createjs.com/#!/CreateJS" target="_blank"><img src="img/site_images/createjs.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://createjs.com/#!/EaselJS" target="_blank"><img src="img/site_images/easlejs.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://createjs.com/#!/TweenJS target="_blank""><img src="img/site_images/tweenjs.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://createjs.com/#!/SoundJS" target="_blank"><img src="img/site_images/soundjs.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://createjs.com/#!/PreloadJS" target="_blank"><img src="img/site_images/preloadjs.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://pusher.com/" target="_blank"><img src="img/site_images/pusher.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://paperjs.org/" target="_blank"><img src="img/site_images/paperjs.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://nodejs.org/" target="_blank"><img src="img/site_images/nodejs.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.voodoojs.com/" target="_blank"><img src="img/site_images/voodoo.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://goinstant.com/" target="_blank"><img src="img/site_images/goinstant.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://www.firebase.com/" target="_blank"><img src="img/site_images/firebase.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://ondras.github.io/rot.js/hp/" target="_blank"><img src="img/site_images/rotjs.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.babylonjs.com/" target="_blank"><img src="img/site_images/babylonjs.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://css-tricks.com/" target="_blank"><img src="img/site_images/csstricks.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://modernizr.com/" target="_blank"><img src="img/site_images/modernizr.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://famo.us/" target="_blank"><img src="img/site_images/famous.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://compfight.com/" target="_blank"><img src="img/site_images/compfight.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.appcelerator.com/" target="_blank"><img src="img/site_images/appcelerator.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.meetup.com/" target="_blank"><img src="img/site_images/meetup.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://coffeescript.org/" target="_blank"><img src="img/site_images/coffeescript.png" class="webmark-img" alt="link" /></a></li>
+        </ul>
+        <!-- CSS Webmarks -->
+        <ul class="webmarks-css">
+            <li><a href="http://leaverou.github.io/animatable/" target="_blank"><img src="img/site_images/animatable.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://css3.bradshawenterprises.com/transforms/" target="_blank"><img src="img/site_images/css3awesome.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.csszengarden.com/" target="_blank"><img src="img/site_images/csszengarden.png" class="webmark-img" alt="link" /></a></li>
+        </ul>
+        <!-- Typeface Webmarks -->
+        <ul class="webmarks-typeface"> 
+            <li><a href="http://www.fontspace.com/" target="_blank"><img src="img/site_images/fontspace.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.fontsquirrel.com/" target="_blank"><img src="img/site_images/fontsquirrel.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://tenbytwenty.com/" target="_blank"><img src="img/site_images/tenbytwenty.png" class="webmark-img" alt="link" /></a></li>
+        </ul>
+        <!-- Tools Webmarks -->
+        <ul class="webmarks-tools">   
+            <li><a href="http://www.wufoo.com/" target="_blank"><img src="img/site_images/wufoo.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.colorzilla.com/gradient-editor/" target="_blank"><img src="img/site_images/cssgradientgenerator.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://drastudio.github.io/url-generator/" target="_blank"><img src="img/site_images/gh-pagesurlgenerator.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://www.iconfinder.com/" target="_blank"><img src="img/site_images/iconfinder.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.dinpattern.com/" target="_blank"><img src="img/site_images/dinpattern.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.squidfingers.com/patterns/" target="_blank"><img src="img/site_images/squidfingers.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://paletton.com" target="_blank"><img src="img/site_images/paletton.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://hslpicker.com" target="_blank"><img src="img/site_images/hslcolorpicker.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://yeoman.io/" target="_blank"><img src="img/site_images/yeoman.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://zencoder.com/en/" target="_blank"><img src="img/site_images/zencoder.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://c9.io/" target="_blank"><img src="img/site_images/cloud9.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://pxtoem.com/" target="_blank"><img src="img/site_images/pxtoem.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://validator.w3.org/#validate_by_input" target="_blank"><img src="img/site_images/htmlvalidator.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://jigsaw.w3.org/css-validator/" target="_blank"><img src="img/site_images/cssvalidator.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://panopticlick.eff.org/" target="_blank"><img src="img/site_images/panopticlick.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://placeit.net/" target="_blank"><img src="img/site_images/placeit.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.colorpicker.com/" target="_blank"><img src="img/site_images/colorpicker.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://color.adobe.com/create/color-wheel/" target="_blank"><img src="img/site_images/kuler.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://atom.io/" target="_blank"><img src="img/site_images/atom.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://dochub.io" target="_blank"><img src="img/site_images/dochub.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.jsoneditoronline.org/" target="_blank"><img src="img/site_images/jsoneditoronline.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://leaverou.github.io/contrast-ratio/" target="_blank"><img src="img/site_images/contrastratio.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://pantonism.com" target="_blank"><img src="img/site_images/pantonism.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.0to255.com/" target="_blank"><img src="img/site_images/0to255.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://styletil.es/" target="_blank"><img src="img/site_images/styletiles.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://bestwebsite.gallery/" target="_blank"><img src="img/site_images/bestwebsitegallery.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.siiimple.com/" target="_blank"><img src="img/site_images/siiimple.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://littlebigdetails.com/" target="_blank"><img src="img/site_images/littlebigdetails.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://niice.co/" target="_blank"><img src="img/site_images/niice.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://dribbble.com/" target="_blank"><img src="img/site_images/dribbble.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.pttrns.com/" target="_blank"><img src="img/site_images/pttrns.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://patterntap.com/" target="_blank"><img src="img/site_images/patterntap.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://builtwith.com/" target="_blank"><img src="img/site_images/builtwith.png" class="webmark-img" alt="link" /></a></li>
+        </ul>
+        
+        <!-- Server Webmarks -->
+        <ul class="webmarks-server">
+            <li><a href="https://bitnami.com/" target="_blank"><img src="img/site_images/bitnami.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://cloud.digitalocean.com" target="_blank"><img src="img/site_images/digitalocean.png" class="webmark-img" alt="link" /></a></li>
+        </ul>
+        
+        <!-- Blogs Webmarks -->
+        <ul class="webmarks-blogs">
+            <li><a href="https://remysharp.com/" target="_blank"><img src="img/site_images/remysharp.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://paddytherabbit.com/" target="_blank"><img src="img/site_images/davidsherlock.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.impressivewebs.com/" target="_blank"><img src="img/site_images/impressivewebs.png" class="webmark-img" alt="link" /></a></li>
+        </ul>
+        <!-- Misc Webmarks -->
+        <ul class="webmarks-misc">
+            <li><a href="http://wowslider.com/" target="_blank"><img src="img/site_images/wowslider.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.zeldman.com/" target="_blank"><img src="img/site_images/zeldman.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://eelslap.com/" target="_blank"><img src="img/site_images/eelslap.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.jsfuck.com/" target="_blank"><img src="img/site_images/jsfuck.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="https://fakena.me/random/" target="_blank"><img src="img/site_images/fakename.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.fakenamegenerator.com/gen-male-us-us.php" target="_blank"><img src="img/site_images/fakenamegenerator.png" class="webmark-img" alt="link" /></a></li>
+            <li><a href="http://www.crowdflower.com/" target="_blank"><img src="img/site_images/crowdflower.png" class="webmark-img" alt="link" /></a></li>
+        </ul>
+    </main>
+    <footer>
+        <p class="footer-text">©2014 Eric Rose</p>
+    </footer>
+</div><!-- /wrapper -->
 </body>
 </html>
